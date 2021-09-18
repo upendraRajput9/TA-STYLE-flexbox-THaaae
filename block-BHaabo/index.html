@@ -1,0 +1,88 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>block-BHaabo</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/87aefb2ea0.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+    <header>
+      <div class="heard-div container flex"> 
+          <img class="alt" src="assets/media/altlogo.png" alt="altcampus">
+         <div class="link-div">
+             <img class="icon" src="assets/icons/bell.svg" alt="">
+             <a class="name" href="">Sarah Jone</a>
+        <img class="icon" src="assets/icons/user.svg" alt="">
+        </div>
+      </div>
+    </header>
+    <main>
+        <section class="container flex">
+            <aside class="aside">
+                <div class="aside-row">
+                    <div class="button">
+                        <img class="des" src="assets/icons/dashboard.svg" alt="">
+                       <h3> Dashboard</h3>
+                    </div>
+                    <div class="button b2">
+                        <img class="des" src="assets/icons/article.svg" alt="">
+                        <h3>Article</h3>
+                    </div>
+                    <div class="button"> <img class="des" src="assets/icons/analytics.svg" alt="">
+                       <h3> Analytics</h3>
+                    </div>
+                    <div class="button"><img class="des" src="assets/icons/inbox.svg" alt="">
+                        <h3>Inbox</h3>
+                    </div>
+                    <div class="button"> <img class="des" src="assets/icons/setting.svg" alt="">
+                        <h3>Setting</h3>
+                    </div>
+                    <div class="button b1">  <img class="des" src="assets/icons/log-out.svg" alt="">
+                        <h3>Log-out</h3>
+                    </div>
+                 
+                </div>
+               
+            </aside>
+            <article class="article flex">
+                <div class="article-img">
+                    <img class="img" src="assets/media/01.png" alt="punch">
+                
+                <h1>Why we are doing AltCampus ?</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum aperiam facilis maiores sunt quos consequuntur modi, sit amet atque in magni soluta non nesciunt nihil, dolor vel. Temporibus, nam doloremque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores vel, porro architecto libero, consectetur qui laborum magni dolorum omnis, facere aliquid doloremque velit aspernatur mollitia distinctio harum cum eos!</p>
+                <button>Read More</button>
+            </div>
+            </article>
+        </section>
+        <footer>
+            <div class="container flex">
+                <h2>&copy; AltCompus</h2>
+            <div><a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a></div>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
